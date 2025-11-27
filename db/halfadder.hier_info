@@ -1,0 +1,20 @@
+|halfadder
+a => sum.IN0
+a => carry.IN0
+a => carry.IN0
+a => borrow.IN1
+b => sum.IN1
+b => carry.IN1
+b => carry.IN0
+b => borrow.IN0
+c => sum.IN1
+c => carry.IN1
+c => carry.IN1
+c => diff.IN1
+c => borrow.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+diff <= diff.DB_MAX_OUTPUT_PORT_TYPE
+borrow <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+
+
